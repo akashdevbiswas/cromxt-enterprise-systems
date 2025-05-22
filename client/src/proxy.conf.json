@@ -1,0 +1,10 @@
+{
+  "/authorization": {
+    "target": "http://localhost:8900",
+    "changeOrigin": true,
+    "secure":false,
+    "pathRewrite": { 
+      "^/authorization": "" 
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-EnterpriseKartApplication<enterprise-kart>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.cromxt.enterprisekart.EnterpriseKartApplication",
+      "projectName": "enterprise-kart",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}

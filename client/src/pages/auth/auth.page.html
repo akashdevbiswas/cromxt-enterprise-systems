@@ -1,0 +1,19 @@
+<div class="h-screen">
+  <nav class="flex justify-between items-center font-bold px-2 py-2">
+    <h1 class="uppercase text-2xl md:text-3xl lg:text-4xl">Cromxt</h1>
+    @if(router.url === '/auth/login') {
+      <button-component
+        [buttonName]="'Sign Up'"
+        [navigationUrl]="'/auth/register'"
+        [buttonType]="'navigation'"
+      ></button-component>
+    }@else{
+      <button-component
+        [buttonName]="'Sign In'"
+        [navigationUrl]="'/auth/login'"
+        [buttonType]="'navigation'"
+      ></button-component>
+    }
+  </nav>
+  <router-outlet ></router-outlet>
+</div>
